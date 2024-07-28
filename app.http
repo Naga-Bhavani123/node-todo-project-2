@@ -1,0 +1,33 @@
+GET http://localhost:3000/todos/?search_q=Buy
+
+###
+GET http://localhost:3000/todos/10/
+
+###
+
+###
+
+GET http://localhost:3000/agenda/?date=2024-07-27
+###
+
+POST http://localhost:3000/todos/ 
+Content-Type: application/json 
+
+{
+ "todo": "html",
+ "priority": "HIGH",
+ "status": "IN PROGRESS",
+ "category": "LEARNING",
+ "dueDate": "2024-07-27"
+}
+
+###
+
+PUT http://localhost:3000/todos/10/ 
+Content-Type: application/json 
+
+{ "dueDate": "2021-01-12" }
+
+###
+
+DELETE  http://localhost:3000/todos/8/ 
