@@ -7,7 +7,7 @@ GET http://localhost:3000/todos/10/
 
 ###
 
-GET http://localhost:3000/agenda/?date=2024-07-27
+GET http://localhost:3000/agenda/?date=2025-07-27
 ###
 
 POST http://localhost:3000/todos/ 
